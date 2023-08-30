@@ -4,9 +4,9 @@ public:
             int n=nums.size();
             int prev2=0;
             int prev1=nums[0];
-            // if(n==0){
-            //     return nums[0];
-            // }
+            if(n==0){
+                return nums[0];
+            }
             for(int i=1;i<n;i++){
                 int inc=prev2+nums[i];
                 int exc=prev1+0;
